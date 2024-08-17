@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    color: #fff;
+}
+.container-color{
+    max-width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 96%;
+    padding: 30px 0 0 7px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #900505;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navber{
+    display: inline-block;
+    font-size: 25px;
+    color:#900505;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: .3s;
+
+}
+
+.header a:hover{
+    color: aqua;
+}
+.container-2{
+    max-width: 100%;
+}
+
+.row{
+    width: 100%;
+     padding: 200px 0 0 200px;
+     background-color:  rgb(148, 209, 107);
+
+}
+.btn-1{
+    background-color: rgb(158, 14, 14);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: rgb(9, 14, 149);
+    border: 2px solid rgb(9, 14, 149);
+}
+.btn-2{
+    background-color: orangered;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: black;
+    color: rgb(9, 14, 149);
+    border: 2px solid rgb(9, 14, 149);
+}
+.col-5 img{
+    border-radius: 50%;
+    width: 430px;
+    height: 500px;
+    box-shadow: 0 0 25px red;
+                
+}
+.btn-3{
+    background-color: orangered;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;}
+    .btn-3:hover{
+        background-color: white;
+        color: rgb(9, 14, 149);
+        border: 2px solid rgb(9, 14, 149);
+    }
+    .row-2{
+        background-color: black;
+        width: 100%;
+        padding: 200px 0 200px;
+        display: flex;
+    }
+    .col-6 img{
+        border-radius: 50%;
+        width: 430px;
+        height: 500px;
+        box-shadow: 0 0 25px rgb(17, 243, 1);
+}
+.col-6 h2{
+    color: #f60a0a;
+    font-size: 42px;
+
+}
+.col-6 h3{
+    font-size: 62px;
+    color: rgb(245, 3, 124);
+}
+.col-6 p{
+    font-size: 20px;
+    margin: 2cm 0 1cm;
+    color: #fff;
+}
+.container-3{
+    max-width: 100%;
+}
+.from{
+    display: flex;
+    padding-top: 40px;
+    margin-left: 0 auto;
+    background-color: #DFE8E6;
+}
+.from-text{
+    text-align: center;
+    background-color:  rgb(148, 209, 107);
+    width: 100%;
+    
+
+}
+.from-input input{
+    width: 60%;
+    height: 73px;
+    margin-top: 10px;
+}
+.from-button{
+    width: 20%;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #f60a0a;
+}
+.from h1{
+    color: #7e0606;
+    font-size: 42px;
+}
+.from-button:hover{
+    background-color: white;
+    color: rgb(9, 14, 149);
+    border: 2px solid rgb(9, 14, 149);
+}
+.skil{
+    background: #333;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h3{
+    margin: 5px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,22) ;
+}
+.skill li{
+    margin: 20px o;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border:1px solid rgba(0,0,0,0.3)
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,24);
+    transition: all 0.3s cubic-bezier(.25,8,25,1);
+    
+    border-redius: 10px;
+}
+   .bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,24) ;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: liner-gradient(135deg,rgba(236,0,140,1)0%,rgba(252,103,103,1)
+   100% );
+}
+   .html{
+    width: 90%;
+    animation: html 3s;
+   }
+   .css{
+    width: 70%;
+    animation: css 3s;
+   }
+   .php{
+    width: 50%;
+    animation: php 3s;
+   }
+   .javascript{
+    width: 60%;
+    animation: javascript 3s;
+   }
+   .bootstrap{
+    width: 80%;
+    animation: bootstrap 3s;
+   }
