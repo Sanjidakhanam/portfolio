@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumaiya Islam's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .social-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-100 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4 fixed w-full top-0 left-0 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold">Sanjida khanam</a>
+            <ul class="flex space-x-4">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="flex flex-col items-center justify-center h-screen bg-blue-300 text-center">
+        <img src="" alt="Profile Picture" class="rounded-full mb-4">
+        <h1 class="text-3xl font-bold">Hi, I am sanjida khanam</h1>
+        <div class="mt-4">
+            <a href="https://facebook.com" class="social-icon mx-2" target="_blank"><img src="https://via.placeholder.com/24?text=F" alt="Facebook"></a>
+            <a href="https://instagram.com" class="social-icon mx-2" target="_blank"><img src="https://via.placeholder.com/24?text=I" alt="Instagram"></a>
+            <a href="https://linkedin.com" class="social-icon mx-2" target="_blank"><img src="https://via.placeholder.com/24?text=L" alt="LinkedIn"></a>
+            <a href="https://t.me" class="social-icon mx-2" target="_blank"><img src="https://via.placeholder.com/24?text=T" alt="Telegram"></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-700">I am a Front-end Developer with a passion for creating beautiful and responsive web applications. I specialize in HTML, CSS, and JavaScript, and have experience with modern frameworks and libraries. My goal is to deliver seamless user experiences and intuitive designs.</p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-200 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Web Design</h3>
+                    <p class="text-gray-700">Creating visually appealing and user-friendly web designs that align with your brand and business goals.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Front-end Development</h3>
+                    <p class="text-gray-700">Building responsive and interactive websites using HTML, CSS, and JavaScript, ensuring compatibility across devices.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">UI/UX Design</h3>
+                    <p class="text-gray-700">Designing intuitive user interfaces and experiences that enhance usability and user satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-white text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Latest Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 1</h3>
+                    <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 2</h3>
+                    <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold mb-2">Project 3</h3>
+                    <p class="text-gray-700">A brief description of the project and the technologies used.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-200 text-center">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-bold mb-4">Contact</h2>
+            <p class="text-gray-700">Feel free to reach out to me via the contact form or through social media. I look forward to connecting with you!</p>
+            <form class="mt-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div>
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name" class="w-full p-2 mt-1 border border-gray-300 rounded" required>
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email" class="w-full p-2 mt-1 border border-gray-300 rounded" required>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" class="w-full p-2 mt-1 border border-gray-300 rounded" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="mt-4 bg-blue-600 text-white p-2 rounded">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white text-center p-4">
+        <p>&copy; 2024 Sumaiya Islam. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
